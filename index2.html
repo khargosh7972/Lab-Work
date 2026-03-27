@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Show / Hide</h2>
+
+<button onclick="showImage()">Show</button>
+<button onclick="hideImage()">Hide</button>
+
+<br><br>
+
+<img id="img" src="Photo1.jpeg">
+
+<script>
+function showImage() {
+    document.getElementById("img").style.display = "block";
+}
+
+function hideImage() {
+    document.getElementById("img").style.display = "none";
+}
+</script>
+
+</body>
+</html>
